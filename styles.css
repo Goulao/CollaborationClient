@@ -1,0 +1,223 @@
+input[type="text"] {
+    background-color: orange;
+    border: 1px; 
+    solit: black
+}
+input[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    border: 1px;
+} 
+
+a {
+    color:white;
+}
+a.li {
+    color:black;
+}
+body {
+    background-color:black
+}
+header {
+    background-color: black;
+}
+
+header .box {
+    margin: 6px;
+    padding: 6px;
+}
+
+h1.box {
+    text-align: right;
+    font-size: 200%;
+    float: left;
+    background-color: #FF513F;
+    width: 8em;
+    margin-top: 0.5em;
+}
+h2 {
+   background-color: black;
+   font-weight: bold;
+   text-align: center;
+   font-size: 200%;
+   color: white;
+   text-decoration: underline;
+}
+span.Fehlermeldung {
+   background-color: red;
+   color: black;
+   font-weight: bold;
+   text-decoration: underline;
+   margin-top: 2em;
+   margin-left: 2em;
+   padding: 0.5em;
+   width:      41em;
+   height: 3em;
+   display: block;
+}    
+span.erfolgsmeldung {
+   background-color: greenyellow;
+   color: black;
+   font-weight: bold;
+   text-decoration: underline;
+   margin-top: 2em;
+   margin-left: 2em;
+   padding: 0.5em;
+   width:      41em;
+   height: 3em;
+   display: block;
+}
+nav {
+    background-color: black;
+    float: left;
+}
+
+nav ul {
+    font-size: 110%;
+    list-style: none;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav li {
+    font-weight: bold;
+    float: left;
+    background: cyan;
+    padding:    10px;
+    margin:     10px;
+    width:      15em;
+    text-align: right;
+}
+
+div.content {    
+    
+    font-size: 130%;
+    clear: both;
+}
+
+
+.clearfix:before {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+    content:".";
+    display:block;
+    font-size:0;
+    height:0;
+    visibility:hidden;
+}
+.clearfix {zoom: 1;} /* IE < 8 */
+
+/* Projekte */
+.project {
+
+    margin-top:       2em;
+    margin-left:      2em;
+}
+.projectName {
+    float: left;
+    background-color: #BD2C1E;
+    width: 10em;
+    font-weight: bold;
+    padding: 0.5em;
+    height:  3em;
+    margin-right: 1em; 
+    color: white;
+}
+.projectActions {
+    float: left;
+    background-color: #BD2C1E;
+    height: 3em;
+    width:  30em;
+    padding: 0.5em;
+    color: black;
+}
+.projectActionsVerticalBox {
+    float: left;
+   
+    width: 15em;
+}
+
+.projectActionsVerticalBox a {
+    display: block;
+    height: 1.5em;
+}
+.adminUser {
+    float: left;
+    background-color: orange;
+    width: 10em;
+    font-weight: bold;
+    padding: 0.5em;
+    height:  2em;
+}
+.userActionsVerticalBox {
+    float: left;
+    background-color: yellowgreen;
+    width: 15em;
+    height:  0.5em;
+    padding: 1.25em;
+    text-align: center;
+  
+}
+.Versionen {
+    float: left;
+    background-color: orange;
+    width: 10em;
+    font-weight: bold;
+    padding: 1em;
+    height:  2em;
+}
+.VersionenBox {
+    float: left;
+    background-color: yellow;
+    width: 15em;
+    height:  1.5em;
+    padding: 1.25em;
+    text-align: center;
+}
+.versionenActions {
+    float: left;
+    background-color: #FF3300;
+    height: 3em;
+    width:  8.5em;
+    padding: 0.5em;
+}
+.Eingabefläche {
+    background-color: greenyellow;
+   color: black;
+   font-weight: bold;
+   text-decoration: underline;
+   margin-top: 1.5em;
+   margin-left: 1.8em;
+   padding: 0.5em;
+   width:      41em;
+   height: 3em;
+   display: block;
+}
+.Eingabefläche_register {
+   background-color: greenyellow;
+   color: black;
+   font-weight: bold;
+   text-decoration: underline;
+   margin-top: 0.5em;
+   margin-left: 2em;
+   padding: 0.5em;
+   width:      40em;
+   height: 3em;
+   display: block;
+}
+.Eingabefläche_admin{
+    background-color: greenyellow;
+   color: black;
+   font-weight: bold;
+   text-decoration: underline;
+   margin-top: 0.5em;
+   margin-left: 2em;
+   padding: 0.5em;
+   width:   40.5em;
+   height: 5em;
+   display: block;
+}
